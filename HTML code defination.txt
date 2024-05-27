@@ -1,0 +1,47 @@
+
+loremipsum.net
+
+
+*css
+1| inline css		<p style="color:red;" >Welcome</p>
+
+2| internal css		<Style type="text/css"
+				p{color:red;}
+			</style>
+
+3| external css		(style.css) folder
+
+
+<html>		= Hipper Text Marcup Lenguge.
+src=" "		= Sorce		(Attibute) attibute name "src" & attibute velu =" "
+alt=" "		= Alternetive
+<a>		= Anchor tag
+href		= Hipper Refarence
+<ul>		= Unorder List
+<ol>		= Order List
+<li>		= List
+<tr>		= Table Row
+<td>		= Table Data
+<th>		= Table Header
+<q>		= Qoutation
+<del>		= Delet
+<div>		=
+<nav>		= 
+<hr>		= Horizontal Row
+rel="stylesheet"= Relation (stylesheet, shortcut icon)
+type="text"	= Type (text/css, image/icon, text/javascript)
+
+
+			JavaScript
+
+alert('kisu akta')
+
+string 		= 'jai kisu lekhi'
+integer		= 90, 50, 100, 159856, 654, 54, 6
+double /
+ floting number	= 123.45, 54.4, 1.2, 45.45
+var=""		= variable="string/integer/floting number"
+array		= [ kamal, jamal, batash, akash ] ----- onek data type
+boolian		= true / false
+object		= every thing is object (for advence programing)
+
