@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery UI</title>
+	<link rel="stylesheet" href="../css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="../css/jquery-ui.structure.min.css" />
+	<link rel="stylesheet" href="../css/jquery-ui.theme.min.css" />
+	<link rel="stylesheet" href="../css/jQuery ui.css" />
+</head>
+<body>
+
+
+	<div class="box"> </div>
+	<div class="box-drop"> </div>
+	<div class="box2"> X </div>
+	<div class="box3"> Y </div>
+	
+	<div class="main-box"> 
+	
+	</div>
+	
+	
+	<ul class="select-sortable-list" >
+		<li>akash</li>
+		<li>akash</li>
+		<li>akash</li>
+		<li>akash</li>
+		<li>akash</li>
+	</ul>
+	
+	<div class="tabs"> 
+	
+		<ul >
+			<li><a href="#tab1">web</a></li>
+			<li><a href="#tab2">not web</a></li>
+			<li><a href="#tab3">logic</a></li>
+			<li><a href="#tab4">unlogic</a></li>
+			<li><a href="#tab5">brother</a></li>
+		</ul>
+		<div id="tab1"> 
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+			</p>
+		</div>
+		<div id="tab2"> 
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+			</p>
+		</div>
+		<div id="tab3"> 
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. CrasLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. CrasLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+			</p>
+		</div>
+		<div id="tab4"> 
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+			</p>
+		</div>
+		<div id="tab5"> 
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+			</p>
+		</div>
+	</div>
+	
+	<input type="text" class="complete" />
+	<input type="text" class="date" />
+
+	<div class="main"> 
+		<h2>Web Design</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras dapibus eget nibh et scelerisque. Pellentesque at semper quam. Nullam pharetra eros arcu, ac vestibulum leo fermentum sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut diam augue.
+		</p>
+		
+		<h2>Web Development</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec elementum urna. Nunc non felis sodales, sodales lectus et, pulvinar nisl. Sed risus nisl, viverra id mollis nec, tempus sed velit. Ut tincidunt pulvinar elit, in laoreet dolor tristique non. Cras  
+		</p>
+		
+		<h2>Graphic Design</h2>
+		<p>
+		Lorem ipsum dolor sit 
+		</p>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="../js/work-jquery.js" ></script>
+	<script type="text/javascript" src="../js/jquery-ui.min.js" ></script>
+	<script type="text/javascript"> 
+		
+		(function($){
+				
+				$(document).ready(function(){
+					
+					$('.box').draggable({'cursor':'move','containment':'.main-box'});
+					$('.box-drop').draggable({'cursor':'move','revert':'invalid'}) .resizable();
+					$('.box2').draggable({'axis':'x'}).resizable({'animate':'true'});
+					$('.box3').draggable({'axis':'y'});
+					$('.main-box').droppable({'drop': function(){
+					
+						<!-- $('body').css('background','black'); -->
+						
+						<!-- alert('What is your name? Every thing is black'); -->
+					}});
+					
+					$('.select-sortable-list').selectable();
+					$('.main').accordion({collapsible:true, heightStyle: 'content'});
+					
+					
+					var naika = ['katrina','karina','shabana','komola','shabnur','dipika','bipasha'];
+					
+					$('.date').datepicker();
+					$('.tabs').tabs();
+					
+				
+				});
+		
+		
+		
+		
+		})(jQuery)
+	
+	
+	</script>
+</body>
+</html>
